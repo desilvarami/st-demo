@@ -8,7 +8,7 @@ def app():
 
     m = leafmap.Map(center=[0, 0], zoom=2)
 
-    in_geojson = 'https://raw.githubusercontent.com/desilvarami/thhydro/main/cable_geo.geojson'
+    in_geojson = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/cable_geo.geojson'
     m.add_geojson(in_geojson, layer_name="Cable lines")
 
     m.to_streamlit(height=700)
