@@ -11,4 +11,4 @@ def app():
     in_geojson = 'https://raw.githubusercontent.com/desilvarami/thhydro/main/cable_geo.geojson'
     m.add_geojson(in_geojson, layer_name="Cable lines")
 
-    m.to_streamlit(height=700)
+    m.to_streamlit(height=400)
